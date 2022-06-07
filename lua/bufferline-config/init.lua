@@ -1,6 +1,6 @@
 require("bufferline").setup()
 
 vim.cmd[[
-	nnoremap <silent>b] :BufferLineCycleNext<CR>
-	nnoremap <silent>b[ :BufferLineCyclePrev<CR>
+	nnoremap <leader>] :BufferLineCycleNext<CR>
+	nnoremap <leader>[ :BufferLineCyclePrev<CR>
 ]]
