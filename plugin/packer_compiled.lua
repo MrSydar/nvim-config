@@ -95,6 +95,11 @@ _G.packer_plugins = {
     path = "/home/denys/.local/share/nvim/site/pack/packer/start/nord.nvim",
     url = "https://github.com/shaunsingh/nord.nvim"
   },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/denys/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/denys/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -124,6 +129,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/denys/.local/share/nvim/site/pack/packer/start/vim-go",
     url = "https://github.com/fatih/vim-go"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/home/denys/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   }
 }
 

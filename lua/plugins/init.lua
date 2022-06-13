@@ -23,6 +23,7 @@ return require('packer').startup(function()
 
 	use {'fatih/vim-go', run = ':GoUpdateBinaries'}
 
+	use {'RRethy/vim-illuminate', requires = { {'neovim/nvim-lspconfig'} }}
 
 	use {
 		'numToStr/Comment.nvim',

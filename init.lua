@@ -4,6 +4,8 @@ require('lualine-config')
 require('bufferline-config')
 require('telescope-config')
 require('comment-config')
+require('vim-illuminate-config')
+require('lspconfig-config')
 
 vim.cmd('colorscheme nord')
 vim.cmd('filetype plugin indent on')
