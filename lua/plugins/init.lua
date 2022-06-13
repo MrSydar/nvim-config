@@ -1,3 +1,9 @@
+require('packer').init {
+	git = {
+		clone_timeout = 60
+	}
+}
+
 return require('packer').startup(function()
 	use 'wbthomason/packer.nvim'
 
@@ -13,5 +19,15 @@ return require('packer').startup(function()
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	}
 
+	use {'neoclide/coc.nvim', branch = 'release'}
+
 	use {'fatih/vim-go', run = ':GoUpdateBinaries'}
+
+
+	use {
+		'numToStr/Comment.nvim',
+		config = function()
+		require('Comment').setup()
+	    end
+    	}
 end)
