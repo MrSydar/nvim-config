@@ -5,6 +5,8 @@ require('packer').init {
 }
 
 return require('packer').startup(function()
+	use 'ryanoasis/vim-devicons'
+
 	use 'wbthomason/packer.nvim'
 
 	use 'shaunsingh/nord.nvim'

@@ -1,5 +1,6 @@
 require('plugins')
 require('treesitter-config')
+require('coc-config')
 require('lualine-config')
 require('bufferline-config')
 require('telescope-config')
